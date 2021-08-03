@@ -4,7 +4,6 @@ import { FaBookOpen, FaRegCircle } from "react-icons/fa";
 const HeaderComponent = (props) => {
   const location = useLocation();
   const history = useHistory();
-  console.log(location);
   const [header, setHeader] = useState("");
   const [detail, setDetail] = useState("");
 
