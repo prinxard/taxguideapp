@@ -1,0 +1,25 @@
+.intro-area{
+  padding: 5% 0 2% 10%;
+  background-color: #1a202c;
+}
+.header-detail{
+  padding: 3% 0 1% 10%;
+  background-color: #1a202c;
+}
+.link:hover{
+  text-decoration: underline;
+  color: blue;
+}
+.list-item{
+  text-decoration: none;
+}
+
+.overview-component, 
+.onboarding-component,
+.upload-component,
+.upload-monthly,.make-payment{
+  margin: 7% 0 0 10%;
+}
+.section-gap{
+  margin-bottom: 4rem;
+}
