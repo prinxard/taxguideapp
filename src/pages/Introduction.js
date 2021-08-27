@@ -1,12 +1,11 @@
 import React from "react";
-import taxmanager from "../img/taxmanager.png";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Layout } from "./Layout";
 
 const Introduction = (props) => {
   return (
     <Layout>
-      <div className="overview-component">
+      <div className="introduction">
         <div className="overview section-gap">
           <h2>OVERVIEW</h2>
           <h4>
@@ -28,7 +27,7 @@ const Introduction = (props) => {
             carried out on the portal.
           </h4>
           <div className="tax-manager">
-            <img className="img-fluid" src={taxmanager} alt="tax-manager" />
+         
           </div>
         </div>
         <div className="Chapters section-gap">

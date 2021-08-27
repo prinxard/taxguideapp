@@ -1,16 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import loginimage from "../img/loginimage.png";
-import startup from "../img/Startup.png";
-import validation from "../img/validation.png";
-import dashboard from "../img/dashboard.png";
-import login from "../img/Login.png";
+
 import { Layout } from "./Layout";
 
 const Onboarding = (props) => {
   return (
     <Layout>
-      <div className="onboarding-component">
+      <div className="onboarding">
         <div className="onboarding">
           <h2 className="mb-4">ONBOARDING</h2>
           <h4 className="mb-3">
@@ -57,7 +53,7 @@ const Onboarding = (props) => {
               For first time users with a TIN number click on SIGNUP on the home
               page.
             </h4>
-            <img className="img-fluid" src={loginimage}></img>
+     
           </section>
         </div>
 
@@ -67,7 +63,7 @@ const Onboarding = (props) => {
             click on GET STARTED. A token is sent to the phone number / email
             linked to the TIN number provided.
           </h4>
-          <img className="img-fluid" src={startup}></img>
+ 
         </section>
 
         <section className="mb-4" className="validation section-gap">
@@ -75,12 +71,12 @@ const Onboarding = (props) => {
             On the validation page, enter the token sent to you, set password,
             click turing, accept terms and condition then click on GET STARTED.
           </h4>
-          <img className="img-fluid" src={validation}></img>
+  
         </section>
 
         <section className="mb-4" className="dashboard section-gap">
           <h4>Successful onboarding redirects you to your dashboard.</h4>
-          <img className="img-fluid  w-75" src={dashboard}></img>
+     
         </section>
 
         <section className="mb-4" className="login section-gap">
@@ -90,7 +86,7 @@ const Onboarding = (props) => {
             number, enter your password, click on the captcha and click on
             LOGIN.
           </h4>
-          <img className="img-fluid" src={login}></img>
+  
           <h4>Successful login redirects you to your dashboard.</h4>
         </section>
       </div>

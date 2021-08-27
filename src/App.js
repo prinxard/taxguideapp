@@ -1,38 +1,38 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import React from 'react';
+import './App.css';
+import Sidebar from './components/Sidebar';
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
-import HeaderComponent from "./components/HeaderComponent";
-import Introduction from "./components/Introduction";
-import MakePayment from "./components/MakePayment";
-import Onboarding from "./components/Onboarding";
-import UploadComponent from "./components/UploadComponent";
-import UploadMonthly from "./components/UploadMonthly";
-import UploadWithholding from "./components/UploadWithholding";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Onboarding from './pages/Onboarding';
+import MakePayment from './pages/MakePayment';
+import UploadYearly from './pages/UploadYearly';
+import Introduction from './pages/Introduction';
+import UploadMonthly from './pages/UploadMonthly';
+import UploadWithholding from './pages/UploadWithholding';
 
 function App() {
   return (
-    <div className="App">
-      <div>
-        <Router>
-          <Switch>
-            <Route exact path="/" component={Introduction} />
-            <Route exact path="/onboarding" component={Onboarding} />
-            <Route
-              exact
-              path="/upload_view_annual"
-              component={UploadComponent}
-            />
-            <Route exact path="/upload_view_monthly" component={UploadMonthly} />
-            <Route exact path="/upload_view_withholding" component={UploadWithholding} />
-            <Route exact path="/make_payment" component={MakePayment} />
-          </Switch>
-        </Router>
-        {/* <Introduction /> */}
-        {/* <Onboarding /> */}
-        {/* <UploadMonthly /> */}
-        {/* <UploadWithholding /> */}
-      </div>
-    </div>
+    <>
+
+      <Router>
+        <Sidebar />
+        <Switch>
+          <div className="page-div">
+            <main className="page-body ">
+              <Route path='/' exact component={Introduction} />
+              <Route path='/makepayment' exact component={MakePayment} />
+              <Route path='/uploadyearly' exact component={UploadYearly} />
+              <Route path='/onboarding' exact component={Onboarding} />
+              <Route path='/uploadmonthly' exact component={UploadMonthly} />
+              <Route path='/uploadwithholding' exact component={UploadWithholding} />
+            </main>
+
+          </div>
+
+        </Switch>
+      </Router>
+
+    </>
   );
 }
 

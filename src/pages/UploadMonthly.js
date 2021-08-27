@@ -1,27 +1,23 @@
 import React from 'react'
-import filereturn from '../img/filereturn.png'
-import monthlyremittance from '../img/Monthlyremittance.png'
-import uploadmonthlyremittance from '../img/uploadmonthlyremittance.png'
-import viewmonthlyremittance from '../img/viewmonthlyremittance.png'
-import searchmonthly from '../img/searchmonthly.png'
+
 import { Layout } from './Layout'
 
 const UploadMonthly = (props) => {
     return (
         <Layout>
-            <div className="upload-monthly">
+            <div className="uploadmonthly">
                 <section className="section-gap">
                     <h2>UPLOAD</h2>
                     <h4>To Upload monthly PAYE remittance schedule,
                         click on the FILE RETURNS button on the side menu bar.</h4>
-                    <img className="img-fluid w-75" src={filereturn}></img>
+       
                 </section>
 
                 <section section className="section-gap">
                     <h4>
                         Click on UPLOAD MONTHLY PAYE REMITTANCE SCHEDULE on the upload/view page.
                     </h4>
-                    <img className="img-fluid w-75" src={monthlyremittance}></img>
+              
                 </section>
 
 
@@ -48,7 +44,7 @@ const UploadMonthly = (props) => {
                     <h4>
                         After choosing the correct file, click on UPLOAD.
                     </h4>
-                    <img className="img-fluid w-75" src={uploadmonthlyremittance}></img>
+      
                 </section>
 
 
@@ -59,7 +55,7 @@ const UploadMonthly = (props) => {
                     <h4>
                         To view monthly PAYE remittance schedule uploaded, simply click on VIEW monthly PAYE remittance schedule.
                     </h4>
-                    <img className="img-fluid w-75" src={viewmonthlyremittance}></img>
+
                 </section>
 
 
@@ -67,7 +63,7 @@ const UploadMonthly = (props) => {
                     <h4>
                         Select year, month and click on SEARCH.
                     </h4>
-                    <img className="img-fluid w-75" src={searchmonthly}></img>
+                  
 
                 </section>
             </div>
