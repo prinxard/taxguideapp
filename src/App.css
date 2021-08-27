@@ -8,12 +8,12 @@
 }
 
 .header-detail{
-  padding: 3% 0 1% 0%;
+  padding: 3% 1% 1% 2%;
   background-color: #060b26;
   margin-top: 10px;
 }
 .main-head {
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .page-div{
@@ -22,21 +22,13 @@
   justify-content: center;
   min-height: 100vh;
   background: #F6FCF9;
+  padding: 2%;
 }
 .page-body{
   flex-basis: 60%;
 
 }
-.uploadyearly,
-.uploadwithholding,
-.uploadmonthly,
-.onboarding,
-.makepayment,
-.introduction {
-  /* display: flex;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem; */
-  /* margin: 7% 0 0 18%; */
+
+.section-gap{
+  margin-bottom: 4rem;
 }

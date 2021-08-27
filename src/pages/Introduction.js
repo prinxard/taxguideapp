@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import taxmanager from "../img/taxmanager.png";
 import { Layout } from "./Layout";
 
 const Introduction = (props) => {
@@ -26,9 +27,9 @@ const Introduction = (props) => {
             portal. This is to help understand the activities that can be
             carried out on the portal.
           </h4>
-          <div className="tax-manager">
-         
-          </div>
+          <figure className="tax-manager">
+            <img className="img-fluid" src={taxmanager} alt="tax-manager" />
+          </figure>
         </div>
         <div className="Chapters section-gap">
           <h2>Chapters</h2>
@@ -43,28 +44,28 @@ const Introduction = (props) => {
             </h4>
             <h4>
               <li class="list-item">
-                <Link to="/upload_view_annual" className="text-decoration-none">Upload Anual PAYE Returns : </Link>Enter and
+                <Link to="/uploadyearly" className="text-decoration-none">Upload Anual PAYE Returns : </Link>Enter and
                 save data in the correct format,upload and view annual PAYE
                 returns
               </li>
             </h4>
             <h4>
               <li class="list-item">
-                <Link to="/upload_view_monthly" className="text-decoration-none">Upload Monthly Schedule : </Link>Enter and
+                <Link to="/uploadmonthly" className="text-decoration-none">Upload Monthly Schedule : </Link>Enter and
                 save data in the correct format, upload and view monthly
                 schedule
               </li>
             </h4>
             <h4>
               <li class="list-item">
-                <Link to="/upload_view_withholding" className="text-decoration-none">Upload/View Withholding Tax Schedule : </Link>
+                <Link to="/uploadwithholding" className="text-decoration-none">Upload/View Withholding Tax Schedule : </Link>
                 Enter and save data in the correct format, upload and view
                 withholding tax schedule.
               </li>
             </h4>
             <h4>
               <li class="list-item">
-                <Link to="/make_payment" className="text-decoration-none">Make Payment : </Link>Choose payment option
+                <Link to="/makepayment" className="text-decoration-none">Make Payment : </Link>Choose payment option
                 most suitable for you and proceed to make payment
               </li>
             </h4>

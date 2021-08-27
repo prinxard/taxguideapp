@@ -1,6 +1,8 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
+import { AiFillWarning } from "react-icons/ai";
+import signup from '../img/onboarding/signup.png'
+import submit from '../img/onboarding/submit.png'
+import donesubmit from '../img/onboarding/donesubmit.png'
 import { Layout } from "./Layout";
 
 const Onboarding = (props) => {
@@ -8,86 +10,48 @@ const Onboarding = (props) => {
     <Layout>
       <div className="onboarding">
         <div className="onboarding">
-          <h2 className="mb-4">ONBOARDING</h2>
+          <h2 className="m-4">ONBOARDING</h2>
           <h4 className="mb-3">
-            The basic requirement to onboard on eTax portal is your TIN number (
-            Tax Identification Number). The home page provides you with link to
-            create a KGTIN for yourself if you do not have.
+            For first time users, one is expected to click on the “sign up” button.
           </h4>
-          <ul className="mb-4">
-            <h4>
-              <li>
-                <Link to="/onboarding" className="text-decoration-none">SIGN UP : </Link>For new users.
-              </li>
-            </h4>
-            <h4>
-              <li>
-                <Link to="/onboarding" className="text-decoration-none">INDIVIDUAL KGTIN REGISTRATION : </Link>For
-                individuals without KGTIN number.
-              </li>
-            </h4>
-            <h4>
-              <li>
-                <Link to="/onboarding" className="text-decoration-none">NON INDIVIDUAL KGTIN REGISTRATION : </Link>
-                For non individuals without KGTIN numbers.
-              </li>
-            </h4>
-            <h4>
-              <li>
-                <Link to="/onboarding" className="text-decoration-none">LOGIN : </Link>For returning users who have
-                successfully on-boarded.
-              </li>
-            </h4>
-            <h4>
-              <li>
-                <Link to="/onboarding" className="text-decoration-none">FORGET PASSWORD : </Link>To retrieve forgotten
-                password for a returning user.
-              </li>
-            </h4>
-          </ul>
-        </div>
-        <div className="mb-4" className="signup section-gap">
-          <h2 className="mb-4 text-primary">Sign Up</h2>
-          <section>
-            <h4>
-              For first time users with a TIN number click on SIGNUP on the home
-              page.
-            </h4>
-     
-          </section>
+          <figure>
+            <img className="img-fluid" src={signup} alt="signup" />
+          </figure>
         </div>
 
-        <section className="mb-4" className="get-started section-gap">
+
+        <section className="get-started section-gap">
           <h4>
-            Provide TIN, click on the captcha, accept terms and conditions and
-            click on GET STARTED. A token is sent to the phone number / email
-            linked to the TIN number provided.
+            The portal provides a signup page where user enters taxpayer ID and clicks on “submit”.
           </h4>
- 
+
         </section>
 
-        <section className="mb-4" className="validation section-gap">
-          <h4>
-            On the validation page, enter the token sent to you, set password,
-            click turing, accept terms and condition then click on GET STARTED.
-          </h4>
-  
+        <section className="mb-4" className="validation ">
+          <figure>
+            <img className="img-fluid" src={submit} alt="submit" />
+          </figure>
+
         </section>
 
-        <section className="mb-4" className="dashboard section-gap">
-          <h4>Successful onboarding redirects you to your dashboard.</h4>
-     
-        </section>
+        <section className="mb-4" >
 
-        <section className="mb-4" className="login section-gap">
-          <h2 className="text-primary">LOGIN</h2>
           <h4 className="text-justify">
-            Onboarding is done once. For returning users, provide your TIN
-            number, enter your password, click on the captcha and click on
-            LOGIN.
+            After which a token is sent via email/SMS to the registered
+            email and phone number linked to the Tax Identification Number.
           </h4>
-  
-          <h4>Successful login redirects you to your dashboard.</h4>
+
+          <h4> <AiFillWarning color='#ebb434' size={'2rem'} /> <strong>Note: Successful login redirects you to your dashboard.</strong> </h4>
+          <h5> <strong>Note: To register for a Tax Identification Number, user can visit the State IRS website (self-service) or click on Get KGTIN of the registration menu on the signup page on the portal [INDIVIDUAL] or [BUSINESS] as it applies to you.</strong> </h5>
+          <h4> After clicking on submit, a window like this will appear and you will have to fill in all the necessary details; create a password and enter the token sent to your phone/email. Once done click the “submit” button. </h4>
+        </section>
+
+        <section  className="validation ">
+          <figure>
+            <img className="img-fluid" src={donesubmit} alt="submit" />
+            <h4> On-boarding happens once. On subsequent visits, user just logs in.</h4>
+          </figure>
+
         </section>
       </div>
     </Layout>
