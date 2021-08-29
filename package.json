@@ -1,6 +1,6 @@
 {
-  "homepage": "https://prinxard.github.io",
-  "name": "taxpayerguide",
+  "homepage": "https://prinxard.github.io/taxguideapp",
+  "name": "taxguideapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
