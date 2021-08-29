@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/taxguideapp/static/css/main.2439c0e5.chunk.css",
-    "main.js": "/taxguideapp/static/js/main.f6a767d0.chunk.js",
-    "main.js.map": "/taxguideapp/static/js/main.f6a767d0.chunk.js.map",
+    "main.js": "/taxguideapp/static/js/main.01a080c5.chunk.js",
+    "main.js.map": "/taxguideapp/static/js/main.01a080c5.chunk.js.map",
     "runtime-main.js": "/taxguideapp/static/js/runtime-main.e15c2cce.js",
     "runtime-main.js.map": "/taxguideapp/static/js/runtime-main.e15c2cce.js.map",
     "static/css/2.4be38407.chunk.css": "/taxguideapp/static/css/2.4be38407.chunk.css",
-    "static/js/2.e529552a.chunk.js": "/taxguideapp/static/js/2.e529552a.chunk.js",
-    "static/js/2.e529552a.chunk.js.map": "/taxguideapp/static/js/2.e529552a.chunk.js.map",
+    "static/js/2.4297750c.chunk.js": "/taxguideapp/static/js/2.4297750c.chunk.js",
+    "static/js/2.4297750c.chunk.js.map": "/taxguideapp/static/js/2.4297750c.chunk.js.map",
     "static/js/3.61cdf352.chunk.js": "/taxguideapp/static/js/3.61cdf352.chunk.js",
     "static/js/3.61cdf352.chunk.js.map": "/taxguideapp/static/js/3.61cdf352.chunk.js.map",
     "index.html": "/taxguideapp/index.html",
     "static/css/2.4be38407.chunk.css.map": "/taxguideapp/static/css/2.4be38407.chunk.css.map",
     "static/css/main.2439c0e5.chunk.css.map": "/taxguideapp/static/css/main.2439c0e5.chunk.css.map",
-    "static/js/2.e529552a.chunk.js.LICENSE.txt": "/taxguideapp/static/js/2.e529552a.chunk.js.LICENSE.txt",
+    "static/js/2.4297750c.chunk.js.LICENSE.txt": "/taxguideapp/static/js/2.4297750c.chunk.js.LICENSE.txt",
     "static/media/board.d1a119b2.png": "/taxguideapp/static/media/board.d1a119b2.png",
     "static/media/clickbank.98e0fef2.png": "/taxguideapp/static/media/clickbank.98e0fef2.png",
     "static/media/confirm.bad94915.png": "/taxguideapp/static/media/confirm.bad94915.png",
@@ -58,8 +58,8 @@
   "entrypoints": [
     "static/js/runtime-main.e15c2cce.js",
     "static/css/2.4be38407.chunk.css",
-    "static/js/2.e529552a.chunk.js",
+    "static/js/2.4297750c.chunk.js",
     "static/css/main.2439c0e5.chunk.css",
-    "static/js/main.f6a767d0.chunk.js"
+    "static/js/main.01a080c5.chunk.js"
   ]
 }
