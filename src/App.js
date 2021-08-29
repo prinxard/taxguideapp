@@ -14,7 +14,6 @@ import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
     <>
-
       <Router>
       <ScrollToTop />
         <Sidebar />
