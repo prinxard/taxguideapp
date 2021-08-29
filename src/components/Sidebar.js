@@ -22,7 +22,7 @@ function Sidebar() {
 
             <nav className={sidebar ? 'na-menu activ' : 'na-menu'}>
              
-                <ul className='nav-menu-items' onClick={showSidebar}>
+                <ul className='nav-menu-items' >
                     <li className='navbar-tog'>
                         <Link to='#' className='menu-bars'>
                             <AiIcons.AiOutlineClose />

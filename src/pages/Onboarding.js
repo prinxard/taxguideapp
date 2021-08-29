@@ -3,6 +3,7 @@ import { AiFillWarning } from "react-icons/ai";
 import signup from '../img/onboarding/signup.png'
 import submit from '../img/onboarding/submit.png'
 import donesubmit from '../img/onboarding/donesubmit.png'
+import login from '../img/onboarding/login.png'
 import { Layout } from "./Layout";
 
 const Onboarding = (props) => {
@@ -46,12 +47,22 @@ const Onboarding = (props) => {
           <h4> After clicking on submit, a window like this will appear and you will have to fill in all the necessary details; create a password and enter the token sent to your phone/email. Once done click the “submit” button. </h4>
         </section>
 
-        <section  className="validation ">
+        <section className="section-gap">
           <figure>
             <img className="img-fluid" src={donesubmit} alt="submit" />
             <h4> On-boarding happens once. On subsequent visits, user just logs in.</h4>
           </figure>
+        </section>
 
+        <section>
+          <h2 className="">Login</h2>
+          <h4 className="mb-3">
+          To login, enter Tax Identification Number and Password.
+          </h4>
+          <figure>
+            <img className="img-fluid" src={login} alt="signup" />
+          </figure>
+          <h4>This takes you straight to your dashboard.</h4>
         </section>
       </div>
     </Layout>
