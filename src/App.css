@@ -13,7 +13,7 @@
   margin-top: 10px;
 }
 .main-head {
-  margin-top: 80px;
+  margin-top: 120px;
 }
 
 .page-div{
@@ -32,3 +32,14 @@
 .section-gap{
   margin-bottom: 4rem;
 }
+
+@media only screen and (min-width: 960px) {
+.close-bar {
+display: none;  
+}
+}
+/* @media only screen and (max-width: 760px) {
+  .nav-menu {
+visibility: hidden;
+  }
+} */

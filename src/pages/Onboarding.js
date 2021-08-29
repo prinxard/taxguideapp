@@ -2,7 +2,7 @@ import React from "react";
 import { AiFillWarning } from "react-icons/ai";
 import signup from '../img/onboarding/signup.png'
 import submit from '../img/onboarding/submit.png'
-import donesubmit from '../img/onboarding/donesubmit.png'
+import board from '../img/onboarding/board.png'
 import login from '../img/onboarding/login.png'
 import { Layout } from "./Layout";
 
@@ -49,7 +49,7 @@ const Onboarding = (props) => {
 
         <section className="section-gap">
           <figure>
-            <img className="img-fluid" src={donesubmit} alt="submit" />
+            <img className="img-fluid" src={board} alt="submit" />
             <h4> On-boarding happens once. On subsequent visits, user just logs in.</h4>
           </figure>
         </section>

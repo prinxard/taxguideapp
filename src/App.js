@@ -18,7 +18,7 @@ function App() {
         <Sidebar />
         <Switch>
           <div className="page-div">
-            <main className="page-body ">
+            <main className="page-body container">
               <Route path='/' exact component={Introduction} />
               <Route path='/makepayment' exact component={MakePayment} />
               <Route path='/uploadyearly' exact component={UploadYearly} />
