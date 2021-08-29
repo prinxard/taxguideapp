@@ -15,7 +15,7 @@ export const SidebarData = [
     path: '/onboarding',
     icon: <FaIcons.FaRegCircle />,
     cName: 'nav-text current-link',
-    activeLink: 'current-link'
+    activeLink: 'current-link',
 
   },
   {

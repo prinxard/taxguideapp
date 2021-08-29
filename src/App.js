@@ -9,12 +9,14 @@ import UploadYearly from './pages/UploadYearly';
 import Introduction from './pages/Introduction';
 import UploadMonthly from './pages/UploadMonthly';
 import UploadWithholding from './pages/UploadWithholding';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <>
 
       <Router>
+      <ScrollToTop />
         <Sidebar />
         <Switch>
           <div className="page-div">

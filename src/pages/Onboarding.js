@@ -9,7 +9,7 @@ import { Layout } from "./Layout";
 const Onboarding = (props) => {
   return (
     <Layout>
-      <div className="onboarding">
+      <div className="onboarding" id="boarding">
         <div className="onboarding">
           <h2 className="m-4">ONBOARDING</h2>
           <h4 className="mb-3">
@@ -44,10 +44,12 @@ const Onboarding = (props) => {
 
           <h4> <AiFillWarning color='#ebb434' size={'2rem'} /> <strong>Note: Successful login redirects you to your dashboard.</strong> </h4>
           <h5> <strong>Note: To register for a Tax Identification Number, user can visit the State IRS website (self-service) or click on Get KGTIN of the registration menu on the signup page on the portal [INDIVIDUAL] or [BUSINESS] as it applies to you.</strong> </h5>
-          <h4> After clicking on submit, a window like this will appear and you will have to fill in all the necessary details; create a password and enter the token sent to your phone/email. Once done click the “submit” button. </h4>
         </section>
 
+
         <section className="section-gap">
+          <h4> After clicking on submit, a window like this will appear and you will have to fill in all the necessary details;
+             create a password and enter the token sent to your phone/email. Once done click the “submit” button. </h4>
           <figure>
             <img className="img-fluid" src={board} alt="submit" />
             <h4> On-boarding happens once. On subsequent visits, user just logs in.</h4>
@@ -57,7 +59,7 @@ const Onboarding = (props) => {
         <section>
           <h2 className="">Login</h2>
           <h4 className="mb-3">
-          To login, enter Tax Identification Number and Password.
+            To login, enter Tax Identification Number and Password.
           </h4>
           <figure>
             <img className="img-fluid" src={login} alt="signup" />
