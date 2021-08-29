@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/taxguideapp/static/css/main.2439c0e5.chunk.css",
-    "main.js": "/taxguideapp/static/js/main.83316259.chunk.js",
-    "main.js.map": "/taxguideapp/static/js/main.83316259.chunk.js.map",
+    "main.js": "/taxguideapp/static/js/main.f8069eb8.chunk.js",
+    "main.js.map": "/taxguideapp/static/js/main.f8069eb8.chunk.js.map",
     "runtime-main.js": "/taxguideapp/static/js/runtime-main.e15c2cce.js",
     "runtime-main.js.map": "/taxguideapp/static/js/runtime-main.e15c2cce.js.map",
     "static/css/2.4be38407.chunk.css": "/taxguideapp/static/css/2.4be38407.chunk.css",
@@ -60,6 +60,6 @@
     "static/css/2.4be38407.chunk.css",
     "static/js/2.4297750c.chunk.js",
     "static/css/main.2439c0e5.chunk.css",
-    "static/js/main.83316259.chunk.js"
+    "static/js/main.f8069eb8.chunk.js"
   ]
 }
