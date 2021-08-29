@@ -17,17 +17,17 @@ const HeaderComponent = (props) => {
         setHeader("Onboarding: Sign up on eTax");
         setDetail("Follow step-by-step instructions to successfully onboard.");
         return;
-      case "/uploadyearly":
-        setHeader(" File Annual PAYE Returns");
-        setDetail("Follow step-by-step instructions to upload and view");
+      case "/monthlyremittance":
+        setHeader(" File Monthly Remittance");
+        setDetail("Follow step-by-step instructions to upload monthly remittance");
         return;
       case "/uploadmonthly":
         setHeader("Upload Monthly PAYE Returns");
         setDetail("Follow step-by-step instructions to upload and view");
         return;
-      case "/uploadwithholding":
-        setHeader("Upload Withholding Tax Schedule");
-        setDetail("Follow step-by-step instructions to upload and view");
+      case "/atomodule":
+        setHeader("RHM-ATOs Module Guidance");
+        setDetail("Follow step-by-step instructions for RTO Module");
         return;
       case "/makepayment":
         setHeader("Proceed to Make Payment");

@@ -4,6 +4,7 @@ import signup from '../img/onboarding/signup.png'
 import submit from '../img/onboarding/submit.png'
 import board from '../img/onboarding/board.png'
 import login from '../img/onboarding/login.png'
+import dashboard from '../img/onboarding/dashboard.png'
 import { Layout } from "./Layout";
 
 const Onboarding = (props) => {
@@ -49,15 +50,15 @@ const Onboarding = (props) => {
 
         <section className="section-gap">
           <h4> After clicking on submit, a window like this will appear and you will have to fill in all the necessary details;
-             create a password and enter the token sent to your phone/email. Once done click the “submit” button. </h4>
+            create a password and enter the token sent to your phone/email. Once done click the “submit” button. </h4>
           <figure>
             <img className="img-fluid" src={board} alt="submit" />
             <h4> On-boarding happens once. On subsequent visits, user just logs in.</h4>
           </figure>
         </section>
 
-        <section>
-          <h2 className="">Login</h2>
+        <section className="section-gap">
+          <h2>LOGIN</h2>
           <h4 className="mb-3">
             To login, enter Tax Identification Number and Password.
           </h4>
@@ -65,6 +66,32 @@ const Onboarding = (props) => {
             <img className="img-fluid" src={login} alt="signup" />
           </figure>
           <h4>This takes you straight to your dashboard.</h4>
+        </section>
+
+        <section className="section-gap">
+          <h2>DASHBOARD</h2>
+          <h4 className="mb-5">
+            The Portal dashboard gives the taxpayer an overview on their tax history.
+            User can also access various menu on the left side bar.
+          </h4>
+          <figure>
+            <img className="img-fluid" src={dashboard} alt="signup" />
+          </figure>
+          <h4 className="mb-5">Menus available are;</h4>
+          <ul>
+            <li>
+              <h4> DASHBOARD – a summary report of transactions.</h4>
+            </li>
+            <li>
+              <h4> PAYMENT – to initiate new payment, view payment history and unpaid assessments.</h4>
+            </li>
+            <li>
+              <h4> FILE RETURNS – PAYE monthly (upload and view), WITHHOLDING (upload and view).</h4>
+            </li>
+            <li>
+              <h4> USER GUIDE- link to user guide</h4>
+            </li>
+          </ul>
         </section>
       </div>
     </Layout>

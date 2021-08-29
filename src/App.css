@@ -39,8 +39,8 @@
 display: none;  
 }
 }
-/* @media only screen and (max-width: 760px) {
-  .nav-menu {
-visibility: hidden;
+@media only screen and (max-width: 760px) {
+  .page-body{
+    flex-basis: 80%; 
   }
-} */
+}

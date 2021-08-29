@@ -44,7 +44,7 @@ const Introduction = (props) => {
             </h4>
             <h4>
               <li class="list-item">
-                <Link to="/uploadyearly" className="text-decoration-none">Upload Anual PAYE Returns : </Link>Enter and
+                <Link to="/makepayment" className="text-decoration-none">Make Payment : </Link>Enter and
                 save data in the correct format,upload and view annual PAYE
                 returns
               </li>
@@ -58,15 +58,14 @@ const Introduction = (props) => {
             </h4>
             <h4>
               <li class="list-item">
-                <Link to="/uploadwithholding" className="text-decoration-none">Upload/View Withholding Tax Schedule : </Link>
+                <Link to="/monthlyremittance" className="text-decoration-none">Monthly Remittance : </Link>
                 Enter and save data in the correct format, upload and view
                 withholding tax schedule.
               </li>
             </h4>
             <h4>
               <li class="list-item">
-                <Link to="/makepayment" className="text-decoration-none">Make Payment : </Link>Choose payment option
-                most suitable for you and proceed to make payment
+                <Link to="/atomodule" className="text-decoration-none">ATO Module : </Link>Process RHM-ATOs Module Procedures
               </li>
             </h4>
           </ol>

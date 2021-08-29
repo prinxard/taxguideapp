@@ -5,10 +5,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Onboarding from './pages/Onboarding';
 import MakePayment from './pages/MakePayment';
-import UploadYearly from './pages/UploadYearly';
+import MonthlyRemittance from './pages/MonthlyRemittance';
 import Introduction from './pages/Introduction';
 import UploadMonthly from './pages/UploadMonthly';
-import UploadWithholding from './pages/UploadWithholding';
+import ATOModule from './pages/ATOModule';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -22,11 +22,11 @@ function App() {
           <div className="page-div">
             <main className="page-body container">
               <Route path='/' exact component={Introduction} />
-              <Route path='/makepayment' exact component={MakePayment} />
-              <Route path='/uploadyearly' exact component={UploadYearly} />
               <Route path='/onboarding' exact component={Onboarding} />
+              <Route path='/makepayment' exact component={MakePayment} />
+              <Route path='/monthlyremittance' exact component={MonthlyRemittance} />
               <Route path='/uploadmonthly' exact component={UploadMonthly} />
-              <Route path='/uploadwithholding' exact component={UploadWithholding} />
+              <Route path='/atomodule' exact component={ATOModule} />
             </main>
 
           </div>

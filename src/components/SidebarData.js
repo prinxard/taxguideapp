@@ -18,32 +18,34 @@ export const SidebarData = [
     activeLink: 'current-link',
 
   },
+
   {
-    title: 'MakePayment',
+    title: 'Make Payment',
     path: '/makepayment',
     icon: <FaIcons.FaRegCircle />,
-    cName: 'nav-text current-link',
+    cName: 'nav-text',
     activeLink: 'current-link'
   },
   {
-    title: 'UploadYearly',
-    path: '/uploadyearly',
-    icon: <FaIcons.FaRegCircle />,
-    cName: 'nav-text current-link',
-    activeLink: 'current-link'
-  },
-  {
-    title: 'UploadMonthly',
+    title: 'PAYE Monthly',
     path: '/uploadmonthly',
     icon: <FaIcons.FaRegCircle />,
-    cName: 'nav-text current-link',
+    cName: 'nav-text ',
     activeLink: 'current-link'
   },
   {
-    title: 'UploadWithholding',
-    path: '/uploadwithholding',
+    title: 'Monthly Remittance',
+    path: '/monthlyremittance',
     icon: <FaIcons.FaRegCircle />,
-    cName: 'nav-text current-link',
+    cName: 'nav-text ',
+    activeLink: 'current-link'
+  },
+
+  {
+    title: 'ATO Module',
+    path: '/atomodule',
+    icon: <FaIcons.FaRegCircle />,
+    cName: 'nav-text ',
     activeLink: 'current-link'
   }
 ];
