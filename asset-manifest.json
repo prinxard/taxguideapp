@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/taxguideapp/static/css/main.2439c0e5.chunk.css",
-    "main.js": "/taxguideapp/static/js/main.01a080c5.chunk.js",
-    "main.js.map": "/taxguideapp/static/js/main.01a080c5.chunk.js.map",
-    "runtime-main.js": "/taxguideapp/static/js/runtime-main.e15c2cce.js",
-    "runtime-main.js.map": "/taxguideapp/static/js/runtime-main.e15c2cce.js.map",
+    "main.js": "/taxguideapp/static/js/main.ae9ac452.chunk.js",
+    "main.js.map": "/taxguideapp/static/js/main.ae9ac452.chunk.js.map",
+    "runtime-main.js": "/taxguideapp/static/js/runtime-main.565bcf21.js",
+    "runtime-main.js.map": "/taxguideapp/static/js/runtime-main.565bcf21.js.map",
     "static/css/2.4be38407.chunk.css": "/taxguideapp/static/css/2.4be38407.chunk.css",
-    "static/js/2.4297750c.chunk.js": "/taxguideapp/static/js/2.4297750c.chunk.js",
-    "static/js/2.4297750c.chunk.js.map": "/taxguideapp/static/js/2.4297750c.chunk.js.map",
-    "static/js/3.61cdf352.chunk.js": "/taxguideapp/static/js/3.61cdf352.chunk.js",
-    "static/js/3.61cdf352.chunk.js.map": "/taxguideapp/static/js/3.61cdf352.chunk.js.map",
+    "static/js/2.336e1966.chunk.js": "/taxguideapp/static/js/2.336e1966.chunk.js",
+    "static/js/2.336e1966.chunk.js.map": "/taxguideapp/static/js/2.336e1966.chunk.js.map",
+    "static/js/3.1c1843d1.chunk.js": "/taxguideapp/static/js/3.1c1843d1.chunk.js",
+    "static/js/3.1c1843d1.chunk.js.map": "/taxguideapp/static/js/3.1c1843d1.chunk.js.map",
     "index.html": "/taxguideapp/index.html",
     "static/css/2.4be38407.chunk.css.map": "/taxguideapp/static/css/2.4be38407.chunk.css.map",
     "static/css/main.2439c0e5.chunk.css.map": "/taxguideapp/static/css/main.2439c0e5.chunk.css.map",
-    "static/js/2.4297750c.chunk.js.LICENSE.txt": "/taxguideapp/static/js/2.4297750c.chunk.js.LICENSE.txt",
+    "static/js/2.336e1966.chunk.js.LICENSE.txt": "/taxguideapp/static/js/2.336e1966.chunk.js.LICENSE.txt",
     "static/media/board.d1a119b2.png": "/taxguideapp/static/media/board.d1a119b2.png",
     "static/media/clickbank.98e0fef2.png": "/taxguideapp/static/media/clickbank.98e0fef2.png",
     "static/media/confirm.bad94915.png": "/taxguideapp/static/media/confirm.bad94915.png",
@@ -56,10 +56,10 @@
     "static/media/viewmonthly.8505ead6.png": "/taxguideapp/static/media/viewmonthly.8505ead6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e15c2cce.js",
+    "static/js/runtime-main.565bcf21.js",
     "static/css/2.4be38407.chunk.css",
-    "static/js/2.4297750c.chunk.js",
+    "static/js/2.336e1966.chunk.js",
     "static/css/main.2439c0e5.chunk.css",
-    "static/js/main.01a080c5.chunk.js"
+    "static/js/main.ae9ac452.chunk.js"
   ]
 }
