@@ -110,7 +110,6 @@ const MonthlyRemittance = (props) => {
                 </section>
 
                 <section className="section-gap">
-
                     <h4>
                         UPDATE REFERENCE WHERE THERE ARE DUPLICATE ASSESSMENTS WITH DIFFERENT STATUS.
                     </h4>
